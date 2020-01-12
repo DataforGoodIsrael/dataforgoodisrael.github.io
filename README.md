@@ -15,7 +15,7 @@ git clone https://github.com/DataforGoodIsrael/dataforgoodisrael.github.io.git
 ```
 
 ## Usage
-Go in the created direcory and run the server offline:
+Go in the created directory and run the server offline:
 ```shell
 cd dataforgoodisrael.github.io
 hugo server
