@@ -26,4 +26,4 @@ If you want to update content on the website, just modify the folder /data/ and 
 It will be automatically deployed by [netlify](https://www.netlify.com/).
 
 ## License
-[MIT](#LICENSE).
+[MIT](LICENSE).
