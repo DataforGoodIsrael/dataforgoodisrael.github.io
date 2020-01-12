@@ -1,0 +1,22 @@
+############################## Contact #############################
+contact:
+  enable : false
+  title : Contact Us
+  subtitle : Contact Details
+  content : Drop us a message
+  form_Action: "#" #contact form works with https://formspree.io
+  map:
+    enable : false
+    gmapAPI : "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+    mapLatitude : 51.5223477
+    mapLongitude: -0.1622023
+
+  contact_Details :
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Tel Aviv, Israel"
+      
+    #- icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+    #  info : "Phone: +972 55 953 4188"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: DataForGoodIsrael at gmail dot com"

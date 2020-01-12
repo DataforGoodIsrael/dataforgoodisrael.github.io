@@ -1,0 +1,11 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_Image : "images/slider/home.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Data for Good Israel"
+  content : "מאפשר לחובבי הנתונים לעשות טוב חברתי. השתמש בכישורים הטכניים שלך בכדי לעשות 'תיקון עולם'!​"
+  button:
+    enable : true
+    label : "הפרויקטים שלנו"
+    link : "#portfolio"

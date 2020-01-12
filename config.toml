@@ -1,0 +1,117 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Data for Good Israel"
+theme = "meghna"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# default content language
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+# disable language
+disableLanguages = [""]
+
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/animate-css/animate.css"
+[[params.plugins.css]]
+URL = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+
+# js plugins
+[[params.plugins.js]]
+URL = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+URL = "plugins/wow/wow.min.js"
+
+############################# Navigation ##################################
+[menu]
+
+  [[menu.main]]
+  name = "Events"
+  URL = "services"
+  weight = 2
+
+  [[menu.main]]
+  name = "Projects"
+  URL = "portfolio"
+  weight = 3
+
+  [[menu.main]]
+  name = "Team"
+  URL = "team"
+  weight = 4
+
+############################# Default Parameters ##########################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "Responsive Multipurpose Parallax HTML5 Template"
+author = "Jeremy"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# post share
+postShare = true
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "images/logo.png"
+
+############################# social icons ##########################
+[[params.social_Icon]]
+icon = "ti-calendar" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.meetup.com/Data-for-Good-Israel/"
+
+[[params.social_Icon]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.facebook.com/DataForGoodIL/"
+
+[[params.social_Icon]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.linkedin.com/company/data-for-good-israel/"
+
+[[params.social_Icon]]
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+link = "https://github.com/DataforGoodIsrael"
+
+[[params.social_Icon]]
+icon = "ti-email" # themify icon pack : https://themify.me/themify-icons
+link = "mailto:info@dataforgoodisrael.com"
+
+
+################################# language ################################
+[Languages]
+
+  ################################ English Language ########################
+  [Languages.en]
+  languageName = "En"
+  languageCode = "en-us"
+  contentDir = "content/english"
+  weight = 1
+  home = "Home"
+
+  ################################ Hebrew Language ########################
+  [Languages.he]
+  languageName = "He"
+  languageCode = "he"
+  contentDir = "content/hebrew"
+  weight = 2
+  home = "Home"

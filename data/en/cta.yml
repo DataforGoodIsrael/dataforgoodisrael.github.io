@@ -1,0 +1,10 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_Image : "images/backgrounds/bg-1.jpg"
+  title : "The purpose"
+  content : "We use the power of the algorithms to solve social problems. The use-cases where data science can have an impact are endless: education, employment, real estate, immigration, health, etc."
+  button:
+    enable : true
+    label : "Start a project with us"
+    link : http://bit.ly/dataforgoodisrael

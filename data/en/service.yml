@@ -1,0 +1,17 @@
+################################# Service #################################
+service:
+  enable : true
+  title : Our Events
+  service_Item :
+    - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      title : The Season Launching
+      content : Ideas gathering/hackathon to generate as many ideas as possible to do social good.
+      link : https://www.meetup.com/Data-for-Good-Israel/
+      
+    - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      title : The Demo Day
+      content : Presentation of the best ideas and team building.
+      
+    - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      title : The D Day
+      content : Presentation of the results from each team and implementation in production.

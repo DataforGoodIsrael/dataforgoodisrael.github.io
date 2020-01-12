@@ -1,0 +1,10 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_Image : "images/backgrounds/bg-1.jpg"
+  title : "המטרה"
+  content : "אנו משתמשים בכוח האלגוריתמים כדי לפתור בעיות חברתיות. מקרי השימוש בהם למדע נתונים יכול להשפיע הם אינסופיים: חינוך, תעסוקה, נדלן, הגירה, בריאות וכו."
+  button:
+    enable : true
+    label : "התחל איתנו פרויקט"
+    link : http://bit.ly/dataforgoodisrael

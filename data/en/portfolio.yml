@@ -1,0 +1,44 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : true
+  title : Our Projects
+  filter_List :
+    - filter_Type : nlp
+      filter_Title : NLP
+      
+    - filter_Type : opendata
+      filter_Title : Open Data
+      
+    - filter_Type : webdev
+      filter_Title : Web Dev
+
+  portfolio_Item :
+    - types : ["nlp", "webdev"]
+      image : images/projects/dhs.png
+      URL : http://bit.ly/dataforgoodisrael
+      title : Detect Hate Speech
+      content : Detecting Sexist, Racist, Homophobic speech on Social Media in order to report it.
+      
+    - types : ["opendata"]
+      image : images/projects/crimes.png
+      URL : http://bit.ly/dataforgoodisrael
+      title : Tel-aviv Top crimes map
+      content : Open Data about crimes in Tel-Aviv
+      
+    - types : ["nlp"]
+      image : images/projects/scam.png
+      URL : http://bit.ly/dataforgoodisrael
+      title : Detect scams in rental contracts
+      content : By scanning your rental contract, you would be able to detect the potential scams.
+
+    - types: []
+      image: images/projects/food_waste.png
+      URL: http://bit.ly/dataforgoodisrael
+      title: Food waste reduction
+      content: Locate events and time for food leftovers and send them to the correct people/food banks in a timely fashion.
+
+    - types: ["webdev"]
+      image: images/projects/mvi.png
+      URL: http://bit.ly/dataforgoodisrael
+      title: Map all volunteering initiatives
+      content: Platform regrouping all the volunteering events around you. Everyone can get involved for the community.
