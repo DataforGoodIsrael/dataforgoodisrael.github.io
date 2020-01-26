@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/"
 languageCode = "en-us"
 title = "Data for Good Israel"
 theme = "meghna"
@@ -40,6 +40,8 @@ URL = "plugins/shuffle/shuffle.min.js"
 URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 URL = "plugins/wow/wow.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
 
 ############################# Navigation ##################################
 [menu]
@@ -63,7 +65,7 @@ URL = "plugins/wow/wow.min.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
+description = "Use the power of algorithm to solve social problems."
 author = "Jeremy"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
