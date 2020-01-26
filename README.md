@@ -21,8 +21,14 @@ cd dataforgoodisrael.github.io
 hugo server
 ```
 
+# Update the hugo theme
+```
+git submodule update --init --recursive
+git submodule foreach git pull origin master
+```
+
 ## Contributing
-If you want to update content on the website, just modify the folder /data/ and push the changes to master.
+If you want to update content on the website, create a pull request and just modify the folder /data/ and push the changes to master.
 It will be automatically deployed by [netlify](https://www.netlify.com/).
 
 ## License
