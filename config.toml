@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-us"
+#languageCode = "en-us"
 title = "Data for Good Israel"
 theme = "meghna"
 # post pagination
@@ -9,10 +9,10 @@ summaryLength = "15"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # default content language
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+#defaultContentLanguage = "en"
+#defaultContentLanguageInSubdir = true
 # disable language
-disableLanguages = [""]
+disableLanguages = []
 
 ############################# Plugins ##########################
 # css plugins
