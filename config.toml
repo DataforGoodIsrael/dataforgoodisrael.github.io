@@ -68,9 +68,9 @@ logo = "images/logo.png"
 description = "Use the power of algorithm to solve social problems."
 author = "Jeremy"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "" # your id
 # post share
-postShare = true
+post_share = true
 
 # preloader
 [params.preloader]
