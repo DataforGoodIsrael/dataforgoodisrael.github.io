@@ -21,7 +21,7 @@ cd dataforgoodisrael.github.io
 hugo server
 ```
 
-# Update the hugo theme
+## Update the hugo theme
 ```
 git submodule update --init --recursive
 git submodule foreach git pull origin master
