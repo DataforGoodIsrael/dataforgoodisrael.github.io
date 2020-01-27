@@ -1,7 +1,8 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_Image : "images/slider/home.jpg"
+  bg_image_webp : "images/slider/home.webp"
+  bg_image : "images/slider/home.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Data for Good Israel"
   content : "Enables data enthusiasts to do social good. Use your technical skills to do 'Tikkun Olam'!​"

@@ -2,13 +2,14 @@
 team:
   enable : true
   title : Our Team
-  team_Member :
+  team_member :
     # team member loop
     - image : images/team/jeremy.png
+      image_webp : images/team/jeremy.webp
       name : Jeremy Atia
       designation : Senior Data Scientist @ Intel Corporation
       content :
-      social_Icon :
+      social :
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
           link : "https://twitter.com/jeremyatia"
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
@@ -18,10 +19,11 @@ team:
 
     # team member loop
     - image : images/team/samuel.png
+      image_webp : images/team/samuel.webp
       name : Samuel Jefroykin
       designation : Senior Data Scientist travelling the world
       content :
-      social_Icon :
+      social :
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/samueljefroykin"
         - icon: ti-email
@@ -29,10 +31,11 @@ team:
 
     # team member loop
     - image : images/team/amir.png
+      image_webp : images/team/amir.webp
       name : Amir Nathan
       designation : Managing Director @ Ashoka Israel
       content :
-      social_Icon :
+      social :
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/amirn"
         - icon: ti-email

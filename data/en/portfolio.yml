@@ -2,43 +2,39 @@
 portfolio:
   enable : true
   title : Our Projects
-  filter_List :
-    - filter_Type : nlp
-      filter_Title : NLP
-      
-    - filter_Type : opendata
-      filter_Title : Open Data
-      
-    - filter_Type : webdev
-      filter_Title : Web Dev
-
-  portfolio_Item :
-    - types : ["nlp", "webdev"]
+  portfolio_item :
+  # portfolio item loop
+    - categories : ["nlp", "webdev"]
       image : images/projects/dhs.png
-      URL : http://bit.ly/dataforgoodisrael
-      title : Detect Hate Speech
+      image_webp : images/projects/dhs.webp
+      link : http://bit.ly/dataforgoodisrael
+      name : Detect Hate Speech
       content : Detecting Sexist, Racist, Homophobic speech on Social Media in order to report it.
       
-    - types : ["opendata"]
+    - categories : ["opendata"]
       image : images/projects/crimes.png
-      URL : http://bit.ly/dataforgoodisrael
-      title : Tel-aviv Top crimes map
+      image_webp : images/projects/crimes.webp
+      link : http://bit.ly/dataforgoodisrael
+      name : Tel-aviv Top crimes map
       content : Open Data about crimes in Tel-Aviv
       
-    - types : ["nlp"]
+    - categories : ["nlp"]
       image : images/projects/scam.png
-      URL : http://bit.ly/dataforgoodisrael
-      title : Detect scams in rental contracts
+      image_webp : images/projects/scam.webp
+      link : http://bit.ly/dataforgoodisrael
+      name : Detect scams in rental contracts
       content : By scanning your rental contract, you would be able to detect the potential scams.
 
-    - types: []
+    - categories: []
       image: images/projects/food_waste.png
-      URL: http://bit.ly/dataforgoodisrael
-      title: Food waste reduction
+      image_webp : images/projects/food_waste.webp
+      link: http://bit.ly/dataforgoodisrael
+      name: Food waste reduction
       content: Locate events and time for food leftovers and send them to the correct people/food banks in a timely fashion.
 
-    - types: ["webdev"]
+    - categories: ["webdev"]
       image: images/projects/mvi.png
-      URL: http://bit.ly/dataforgoodisrael
-      title: Map all volunteering initiatives
+      image_webp : images/projects/mvi.webp
+      link: http://bit.ly/dataforgoodisrael
+      name: Map all volunteering initiatives
       content: Platform regrouping all the volunteering events around you. Everyone can get involved for the community.

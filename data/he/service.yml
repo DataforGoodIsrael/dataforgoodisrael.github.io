@@ -2,16 +2,16 @@
 service:
   enable : true
   title : Our Events
-  service_Item :
+  service_item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : The Season Launching
+      name : The Season Launching
       content : איסוף רעיונות / האקתון בכדי לייצר כמה שיותר רעיונות לטובת טובת החברה.
       link : https://www.meetup.com/Data-for-Good-Israel/
       
     - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      title : The Demo Day
+      name : The Demo Day
       content : הצגת מיטב הרעיונות ובניית הצוות.
       
     - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      title : The D Day
+      name : The D Day
       content : הצגת התוצאות מכל צוות ויישום בייצור.

@@ -2,43 +2,38 @@
 portfolio:
   enable : true
   title : Our Projects
-  filter_List :
-    - filter_Type : nlp
-      filter_Title : NLP
-      
-    - filter_Type : opendata
-      filter_Title : Open Data
-      
-    - filter_Type : webdev
-      filter_Title : Web Dev
-
-  portfolio_Item :
-    - types : ["nlp", "webdev"]
+  portfolio_item :
+    - categories : ["nlp", "webdev"]
       image : images/projects/dhs.png
-      URL : http://bit.ly/dataforgoodisrael
-      title : זיהוי דיבור שנאה
+      image_webp : images/projects/dhs.webp
+      link : http://bit.ly/dataforgoodisrael
+      name : זיהוי דיבור שנאה
       content : גילוי נאום סקסיסטי, גזעני, הומופובי במדיה החברתית כדי לדווח עליו.
       
-    - types : ["opendata"]
+    - categories : ["opendata"]
       image : images/projects/crimes.png
-      URL : http://bit.ly/dataforgoodisrael
-      title : מפת פשעים ראשונים בתל אביב
+      image_webp : images/projects/crimes.webp
+      link : http://bit.ly/dataforgoodisrael
+      name : מפת פשעים ראשונים בתל אביב
       content : נתונים פתוחים על פשעים בתל אביב
       
-    - types : ["nlp"]
+    - categories : ["nlp"]
       image : images/projects/scam.png
-      URL : http://bit.ly/dataforgoodisrael
-      title : גלה הונאות בחוזי שכירות
+      image_webp : images/projects/scam.webp
+      link : http://bit.ly/dataforgoodisrael
+      name : גלה הונאות בחוזי שכירות
       content : על ידי סריקת חוזה השכירות שלך, תוכל לזהות את ההונאות הפוטנציאליות.
 
-    - types: []
+    - categories: []
       image: images/projects/food_waste.png
-      URL: http://bit.ly/dataforgoodisrael
-      title: הפחתת פסולת מזון
+      image_webp : images/projects/food_waste.webp
+      link: http://bit.ly/dataforgoodisrael
+      name: הפחתת פסולת מזון
       content: אתר אירועים וזמן לשאריות אוכל ושלח אותם לאנשים / בנקי המזון הנכונים בצורה מתוזמנת.
 
-    - types: ["webdev"]
+    - categories: ["webdev"]
       image: images/projects/mvi.png
-      URL: http://bit.ly/dataforgoodisrael
-      title: מפה את כל יוזמות ההתנדבות
+      image_webp : images/projects/mvi.webp
+      link: http://bit.ly/dataforgoodisrael
+      name: מפה את כל יוזמות ההתנדבות
       content: פלטפורמה בקבוצה מחדש של כל אירועי ההתנדבות סביבך. כל אחד יכול להסתבך למען הקהילה.
