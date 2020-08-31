@@ -34,3 +34,8 @@ Every push to the master branch will automatically be deployed by [netlify](http
 
 ## License
 [MIT](LICENSE).
+
+## Credits
+Created by Jeremy Atia from Data For Good Israel.
+
+Contact me at jeremy@dataforgoodisrael.com
